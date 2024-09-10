@@ -1,9 +1,7 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FaLongArrowAltDown } from 'react-icons/fa';
-import SlideView from './SlideView';
-// import img from "../assets/ppts/stripelogo.png"
-import { ppt } from '../Data/ppts';
+
 
 const Home = () => {
     // Create a ref for the target component
