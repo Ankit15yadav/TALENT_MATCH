@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import img from "../assets/ppts/csiimg.png"
 
 const AnimatedText = () => {
     const [visible, setVisible] = useState(true);
@@ -49,7 +50,7 @@ const AnimatedText = () => {
                             zIndex: 40,
                         }}
                     >
-                        WELCOME TO BOT DOCTOR
+                        WELCOME TO TALENT MATCH
                     </motion.div>
                 )}
             </AnimatePresence>
